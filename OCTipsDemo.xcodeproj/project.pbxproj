@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3D55825221D7437000A6A779 /* OCNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D55825121D7437000A6A779 /* OCNavigationController.m */; };
 		3D58F15621D61FA4005F98FA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D58F15521D61FA4005F98FA /* AppDelegate.m */; };
 		3D58F15921D61FA4005F98FA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D58F15821D61FA4005F98FA /* ViewController.m */; };
 		3D58F15C21D61FA4005F98FA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D58F15A21D61FA4005F98FA /* Main.storyboard */; };
@@ -18,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3D55825021D7437000A6A779 /* OCNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OCNavigationController.h; sourceTree = "<group>"; };
+		3D55825121D7437000A6A779 /* OCNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OCNavigationController.m; sourceTree = "<group>"; };
 		3D58F15121D61FA4005F98FA /* OCTipsDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OCTipsDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D58F15421D61FA4005F98FA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3D58F15521D61FA4005F98FA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -45,6 +48,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3D55824F21D7432200A6A779 /* NavigationController */ = {
+			isa = PBXGroup;
+			children = (
+				3D55825021D7437000A6A779 /* OCNavigationController.h */,
+				3D55825121D7437000A6A779 /* OCNavigationController.m */,
+			);
+			path = NavigationController;
+			sourceTree = "<group>";
+		};
 		3D58F14821D61FA4005F98FA = {
 			isa = PBXGroup;
 			children = (
@@ -64,6 +76,7 @@
 		3D58F15321D61FA4005F98FA /* OCTipsDemo */ = {
 			isa = PBXGroup;
 			children = (
+				3D55824F21D7432200A6A779 /* NavigationController */,
 				3D58F16B21D61FC6005F98FA /* Button */,
 				3D58F16A21D61FBC005F98FA /* Label */,
 				3D58F15421D61FA4005F98FA /* AppDelegate.h */,
@@ -171,6 +184,7 @@
 				3D58F15921D61FA4005F98FA /* ViewController.m in Sources */,
 				3D58F16421D61FA8005F98FA /* main.m in Sources */,
 				3D58F17121D620DD005F98FA /* OCButton.m in Sources */,
+				3D55825221D7437000A6A779 /* OCNavigationController.m in Sources */,
 				3D58F16E21D61FF2005F98FA /* OCLabel.m in Sources */,
 				3D58F15621D61FA4005F98FA /* AppDelegate.m in Sources */,
 			);
