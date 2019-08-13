@@ -17,6 +17,7 @@
 		3D58F16E21D61FF2005F98FA /* OCLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D58F16D21D61FF2005F98FA /* OCLabel.m */; };
 		3D58F17121D620DD005F98FA /* OCButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D58F17021D620DD005F98FA /* OCButton.m */; };
 		4AA0CDDF23025C0000F50BCB /* OCTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA0CDDE23025C0000F50BCB /* OCTextField.m */; };
+		4AA0CDE323025DC000F50BCB /* AppDelegate+OC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA0CDE223025DC000F50BCB /* AppDelegate+OC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,8 @@
 		3D58F17021D620DD005F98FA /* OCButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OCButton.m; sourceTree = "<group>"; };
 		4AA0CDDD23025C0000F50BCB /* OCTextField.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OCTextField.h; sourceTree = "<group>"; };
 		4AA0CDDE23025C0000F50BCB /* OCTextField.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OCTextField.m; sourceTree = "<group>"; };
+		4AA0CDE123025DC000F50BCB /* AppDelegate+OC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+OC.h"; sourceTree = "<group>"; };
+		4AA0CDE223025DC000F50BCB /* AppDelegate+OC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+OC.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +82,7 @@
 		3D58F15321D61FA4005F98FA /* OCTipsDemo */ = {
 			isa = PBXGroup;
 			children = (
+				4AA0CDE023025D6C00F50BCB /* LocatPush */,
 				4AA0CDDC23025BD300F50BCB /* UITextField */,
 				3D55824F21D7432200A6A779 /* NavigationController */,
 				3D58F16B21D61FC6005F98FA /* Button */,
@@ -121,6 +125,15 @@
 				4AA0CDDE23025C0000F50BCB /* OCTextField.m */,
 			);
 			path = UITextField;
+			sourceTree = "<group>";
+		};
+		4AA0CDE023025D6C00F50BCB /* LocatPush */ = {
+			isa = PBXGroup;
+			children = (
+				4AA0CDE123025DC000F50BCB /* AppDelegate+OC.h */,
+				4AA0CDE223025DC000F50BCB /* AppDelegate+OC.m */,
+			);
+			path = LocatPush;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -198,6 +211,7 @@
 				3D58F15921D61FA4005F98FA /* ViewController.m in Sources */,
 				3D58F16421D61FA8005F98FA /* main.m in Sources */,
 				3D58F17121D620DD005F98FA /* OCButton.m in Sources */,
+				4AA0CDE323025DC000F50BCB /* AppDelegate+OC.m in Sources */,
 				3D55825221D7437000A6A779 /* OCNavigationController.m in Sources */,
 				3D58F16E21D61FF2005F98FA /* OCLabel.m in Sources */,
 				3D58F15621D61FA4005F98FA /* AppDelegate.m in Sources */,
