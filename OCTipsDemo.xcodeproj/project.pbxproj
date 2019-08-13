@@ -16,6 +16,7 @@
 		3D58F16421D61FA8005F98FA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D58F16321D61FA8005F98FA /* main.m */; };
 		3D58F16E21D61FF2005F98FA /* OCLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D58F16D21D61FF2005F98FA /* OCLabel.m */; };
 		3D58F17121D620DD005F98FA /* OCButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D58F17021D620DD005F98FA /* OCButton.m */; };
+		4AA0CDDF23025C0000F50BCB /* OCTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA0CDDE23025C0000F50BCB /* OCTextField.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,8 @@
 		3D58F16D21D61FF2005F98FA /* OCLabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OCLabel.m; sourceTree = "<group>"; };
 		3D58F16F21D620DD005F98FA /* OCButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OCButton.h; sourceTree = "<group>"; };
 		3D58F17021D620DD005F98FA /* OCButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OCButton.m; sourceTree = "<group>"; };
+		4AA0CDDD23025C0000F50BCB /* OCTextField.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OCTextField.h; sourceTree = "<group>"; };
+		4AA0CDDE23025C0000F50BCB /* OCTextField.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OCTextField.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +79,7 @@
 		3D58F15321D61FA4005F98FA /* OCTipsDemo */ = {
 			isa = PBXGroup;
 			children = (
+				4AA0CDDC23025BD300F50BCB /* UITextField */,
 				3D55824F21D7432200A6A779 /* NavigationController */,
 				3D58F16B21D61FC6005F98FA /* Button */,
 				3D58F16A21D61FBC005F98FA /* Label */,
@@ -108,6 +112,15 @@
 				3D58F17021D620DD005F98FA /* OCButton.m */,
 			);
 			path = Button;
+			sourceTree = "<group>";
+		};
+		4AA0CDDC23025BD300F50BCB /* UITextField */ = {
+			isa = PBXGroup;
+			children = (
+				4AA0CDDD23025C0000F50BCB /* OCTextField.h */,
+				4AA0CDDE23025C0000F50BCB /* OCTextField.m */,
+			);
+			path = UITextField;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -181,6 +194,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4AA0CDDF23025C0000F50BCB /* OCTextField.m in Sources */,
 				3D58F15921D61FA4005F98FA /* ViewController.m in Sources */,
 				3D58F16421D61FA8005F98FA /* main.m in Sources */,
 				3D58F17121D620DD005F98FA /* OCButton.m in Sources */,
