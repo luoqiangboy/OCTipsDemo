@@ -18,6 +18,13 @@
 		3D58F17121D620DD005F98FA /* OCButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D58F17021D620DD005F98FA /* OCButton.m */; };
 		4AA0CDDF23025C0000F50BCB /* OCTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA0CDDE23025C0000F50BCB /* OCTextField.m */; };
 		4AA0CDE323025DC000F50BCB /* AppDelegate+OC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA0CDE223025DC000F50BCB /* AppDelegate+OC.m */; };
+		4AFE429E231FA4E800AD52DA /* NSTimer+Crash.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AFE428D231FA4E800AD52DA /* NSTimer+Crash.m */; };
+		4AFE429F231FA4E800AD52DA /* NSTimerProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AFE428F231FA4E800AD52DA /* NSTimerProxy.m */; };
+		4AFE42A0231FA4E800AD52DA /* ForwardingTarget.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AFE4292231FA4E800AD52DA /* ForwardingTarget.m */; };
+		4AFE42A1231FA4E800AD52DA /* NSObject+AvoidCrash.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AFE4293231FA4E800AD52DA /* NSObject+AvoidCrash.m */; };
+		4AFE42A3231FA4E800AD52DA /* NSObject+KVOCrash.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AFE429A231FA4E800AD52DA /* NSObject+KVOCrash.m */; };
+		4AFE42A4231FA4E800AD52DA /* KVOProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AFE429D231FA4E800AD52DA /* KVOProxy.m */; };
+		4AFE42A7231FA57200AD52DA /* OCCrashAvoidWhiteList.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AFE42A6231FA57200AD52DA /* OCCrashAvoidWhiteList.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +48,20 @@
 		4AA0CDDE23025C0000F50BCB /* OCTextField.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OCTextField.m; sourceTree = "<group>"; };
 		4AA0CDE123025DC000F50BCB /* AppDelegate+OC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+OC.h"; sourceTree = "<group>"; };
 		4AA0CDE223025DC000F50BCB /* AppDelegate+OC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+OC.m"; sourceTree = "<group>"; };
+		4AFE428D231FA4E800AD52DA /* NSTimer+Crash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+Crash.m"; sourceTree = "<group>"; };
+		4AFE428E231FA4E800AD52DA /* NSTimerProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSTimerProxy.h; sourceTree = "<group>"; };
+		4AFE428F231FA4E800AD52DA /* NSTimerProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSTimerProxy.m; sourceTree = "<group>"; };
+		4AFE4290231FA4E800AD52DA /* NSTimer+Crash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTimer+Crash.h"; sourceTree = "<group>"; };
+		4AFE4292231FA4E800AD52DA /* ForwardingTarget.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ForwardingTarget.m; sourceTree = "<group>"; };
+		4AFE4293231FA4E800AD52DA /* NSObject+AvoidCrash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+AvoidCrash.m"; sourceTree = "<group>"; };
+		4AFE4294231FA4E800AD52DA /* ForwardingTarget.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ForwardingTarget.h; sourceTree = "<group>"; };
+		4AFE4295231FA4E800AD52DA /* NSObject+AvoidCrash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+AvoidCrash.h"; sourceTree = "<group>"; };
+		4AFE429A231FA4E800AD52DA /* NSObject+KVOCrash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+KVOCrash.m"; sourceTree = "<group>"; };
+		4AFE429B231FA4E800AD52DA /* KVOProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KVOProxy.h; sourceTree = "<group>"; };
+		4AFE429C231FA4E800AD52DA /* NSObject+KVOCrash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+KVOCrash.h"; sourceTree = "<group>"; };
+		4AFE429D231FA4E800AD52DA /* KVOProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KVOProxy.m; sourceTree = "<group>"; };
+		4AFE42A5231FA57200AD52DA /* OCCrashAvoidWhiteList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OCCrashAvoidWhiteList.h; sourceTree = "<group>"; };
+		4AFE42A6231FA57200AD52DA /* OCCrashAvoidWhiteList.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OCCrashAvoidWhiteList.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +108,7 @@
 				3D55824F21D7432200A6A779 /* NavigationController */,
 				3D58F16B21D61FC6005F98FA /* Button */,
 				3D58F16A21D61FBC005F98FA /* Label */,
+				4AFE428B231FA4E800AD52DA /* AvoidCrash */,
 				3D58F15421D61FA4005F98FA /* AppDelegate.h */,
 				3D58F15521D61FA4005F98FA /* AppDelegate.m */,
 				3D58F15721D61FA4005F98FA /* ViewController.h */,
@@ -134,6 +156,59 @@
 				4AA0CDE223025DC000F50BCB /* AppDelegate+OC.m */,
 			);
 			path = LocatPush;
+			sourceTree = "<group>";
+		};
+		4AFE428B231FA4E800AD52DA /* AvoidCrash */ = {
+			isa = PBXGroup;
+			children = (
+				4AFE428C231FA4E800AD52DA /* NSTimerCrash */,
+				4AFE4291231FA4E800AD52DA /* UnrecognizedSelectorCrash */,
+				4AFE4296231FA4E800AD52DA /* WhiteList(设置白名单) */,
+				4AFE4299231FA4E800AD52DA /* KVOCrash */,
+			);
+			path = AvoidCrash;
+			sourceTree = "<group>";
+		};
+		4AFE428C231FA4E800AD52DA /* NSTimerCrash */ = {
+			isa = PBXGroup;
+			children = (
+				4AFE428F231FA4E800AD52DA /* NSTimerProxy.m */,
+				4AFE428E231FA4E800AD52DA /* NSTimerProxy.h */,
+				4AFE4290231FA4E800AD52DA /* NSTimer+Crash.h */,
+				4AFE428D231FA4E800AD52DA /* NSTimer+Crash.m */,
+			);
+			path = NSTimerCrash;
+			sourceTree = "<group>";
+		};
+		4AFE4291231FA4E800AD52DA /* UnrecognizedSelectorCrash */ = {
+			isa = PBXGroup;
+			children = (
+				4AFE4294231FA4E800AD52DA /* ForwardingTarget.h */,
+				4AFE4292231FA4E800AD52DA /* ForwardingTarget.m */,
+				4AFE4295231FA4E800AD52DA /* NSObject+AvoidCrash.h */,
+				4AFE4293231FA4E800AD52DA /* NSObject+AvoidCrash.m */,
+			);
+			path = UnrecognizedSelectorCrash;
+			sourceTree = "<group>";
+		};
+		4AFE4296231FA4E800AD52DA /* WhiteList(设置白名单) */ = {
+			isa = PBXGroup;
+			children = (
+				4AFE42A5231FA57200AD52DA /* OCCrashAvoidWhiteList.h */,
+				4AFE42A6231FA57200AD52DA /* OCCrashAvoidWhiteList.m */,
+			);
+			path = "WhiteList(设置白名单)";
+			sourceTree = "<group>";
+		};
+		4AFE4299231FA4E800AD52DA /* KVOCrash */ = {
+			isa = PBXGroup;
+			children = (
+				4AFE429C231FA4E800AD52DA /* NSObject+KVOCrash.h */,
+				4AFE429A231FA4E800AD52DA /* NSObject+KVOCrash.m */,
+				4AFE429B231FA4E800AD52DA /* KVOProxy.h */,
+				4AFE429D231FA4E800AD52DA /* KVOProxy.m */,
+			);
+			path = KVOCrash;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -207,14 +282,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4AFE42A3231FA4E800AD52DA /* NSObject+KVOCrash.m in Sources */,
 				4AA0CDDF23025C0000F50BCB /* OCTextField.m in Sources */,
+				4AFE42A4231FA4E800AD52DA /* KVOProxy.m in Sources */,
 				3D58F15921D61FA4005F98FA /* ViewController.m in Sources */,
+				4AFE42A7231FA57200AD52DA /* OCCrashAvoidWhiteList.m in Sources */,
 				3D58F16421D61FA8005F98FA /* main.m in Sources */,
+				4AFE429F231FA4E800AD52DA /* NSTimerProxy.m in Sources */,
 				3D58F17121D620DD005F98FA /* OCButton.m in Sources */,
 				4AA0CDE323025DC000F50BCB /* AppDelegate+OC.m in Sources */,
 				3D55825221D7437000A6A779 /* OCNavigationController.m in Sources */,
+				4AFE429E231FA4E800AD52DA /* NSTimer+Crash.m in Sources */,
 				3D58F16E21D61FF2005F98FA /* OCLabel.m in Sources */,
+				4AFE42A0231FA4E800AD52DA /* ForwardingTarget.m in Sources */,
 				3D58F15621D61FA4005F98FA /* AppDelegate.m in Sources */,
+				4AFE42A1231FA4E800AD52DA /* NSObject+AvoidCrash.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
