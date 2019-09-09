@@ -16,6 +16,7 @@
 		3D58F16421D61FA8005F98FA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D58F16321D61FA8005F98FA /* main.m */; };
 		3D58F16E21D61FF2005F98FA /* OCLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D58F16D21D61FF2005F98FA /* OCLabel.m */; };
 		3D58F17121D620DD005F98FA /* OCButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D58F17021D620DD005F98FA /* OCButton.m */; };
+		4A8CEF482325EA6200F5D447 /* OCImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A8CEF472325EA6200F5D447 /* OCImage.m */; };
 		4AA0CDDF23025C0000F50BCB /* OCTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA0CDDE23025C0000F50BCB /* OCTextField.m */; };
 		4AA0CDE323025DC000F50BCB /* AppDelegate+OC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA0CDE223025DC000F50BCB /* AppDelegate+OC.m */; };
 		4AFE429E231FA4E800AD52DA /* NSTimer+Crash.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AFE428D231FA4E800AD52DA /* NSTimer+Crash.m */; };
@@ -25,6 +26,8 @@
 		4AFE42A3231FA4E800AD52DA /* NSObject+KVOCrash.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AFE429A231FA4E800AD52DA /* NSObject+KVOCrash.m */; };
 		4AFE42A4231FA4E800AD52DA /* KVOProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AFE429D231FA4E800AD52DA /* KVOProxy.m */; };
 		4AFE42A7231FA57200AD52DA /* OCCrashAvoidWhiteList.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AFE42A6231FA57200AD52DA /* OCCrashAvoidWhiteList.m */; };
+		4AFE42AA231FA73C00AD52DA /* NSMutableArray+Crash.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AFE42A9231FA73C00AD52DA /* NSMutableArray+Crash.m */; };
+		4AFE42AD231FACC800AD52DA /* UIViewController+aop.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AFE42AC231FACC800AD52DA /* UIViewController+aop.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +47,8 @@
 		3D58F16D21D61FF2005F98FA /* OCLabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OCLabel.m; sourceTree = "<group>"; };
 		3D58F16F21D620DD005F98FA /* OCButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OCButton.h; sourceTree = "<group>"; };
 		3D58F17021D620DD005F98FA /* OCButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OCButton.m; sourceTree = "<group>"; };
+		4A8CEF462325EA6200F5D447 /* OCImage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OCImage.h; sourceTree = "<group>"; };
+		4A8CEF472325EA6200F5D447 /* OCImage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OCImage.m; sourceTree = "<group>"; };
 		4AA0CDDD23025C0000F50BCB /* OCTextField.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OCTextField.h; sourceTree = "<group>"; };
 		4AA0CDDE23025C0000F50BCB /* OCTextField.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OCTextField.m; sourceTree = "<group>"; };
 		4AA0CDE123025DC000F50BCB /* AppDelegate+OC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+OC.h"; sourceTree = "<group>"; };
@@ -62,6 +67,10 @@
 		4AFE429D231FA4E800AD52DA /* KVOProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KVOProxy.m; sourceTree = "<group>"; };
 		4AFE42A5231FA57200AD52DA /* OCCrashAvoidWhiteList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OCCrashAvoidWhiteList.h; sourceTree = "<group>"; };
 		4AFE42A6231FA57200AD52DA /* OCCrashAvoidWhiteList.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OCCrashAvoidWhiteList.m; sourceTree = "<group>"; };
+		4AFE42A8231FA73C00AD52DA /* NSMutableArray+Crash.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+Crash.h"; sourceTree = "<group>"; };
+		4AFE42A9231FA73C00AD52DA /* NSMutableArray+Crash.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+Crash.m"; sourceTree = "<group>"; };
+		4AFE42AB231FACC800AD52DA /* UIViewController+aop.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+aop.h"; sourceTree = "<group>"; };
+		4AFE42AC231FACC800AD52DA /* UIViewController+aop.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+aop.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +112,7 @@
 		3D58F15321D61FA4005F98FA /* OCTipsDemo */ = {
 			isa = PBXGroup;
 			children = (
+				4A8CEF452325EA4900F5D447 /* Image */,
 				4AA0CDE023025D6C00F50BCB /* LocatPush */,
 				4AA0CDDC23025BD300F50BCB /* UITextField */,
 				3D55824F21D7432200A6A779 /* NavigationController */,
@@ -140,6 +150,15 @@
 			path = Button;
 			sourceTree = "<group>";
 		};
+		4A8CEF452325EA4900F5D447 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				4A8CEF462325EA6200F5D447 /* OCImage.h */,
+				4A8CEF472325EA6200F5D447 /* OCImage.m */,
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
 		4AA0CDDC23025BD300F50BCB /* UITextField */ = {
 			isa = PBXGroup;
 			children = (
@@ -165,6 +184,10 @@
 				4AFE4291231FA4E800AD52DA /* UnrecognizedSelectorCrash */,
 				4AFE4296231FA4E800AD52DA /* WhiteList(设置白名单) */,
 				4AFE4299231FA4E800AD52DA /* KVOCrash */,
+				4AFE42A8231FA73C00AD52DA /* NSMutableArray+Crash.h */,
+				4AFE42A9231FA73C00AD52DA /* NSMutableArray+Crash.m */,
+				4AFE42AB231FACC800AD52DA /* UIViewController+aop.h */,
+				4AFE42AC231FACC800AD52DA /* UIViewController+aop.m */,
 			);
 			path = AvoidCrash;
 			sourceTree = "<group>";
@@ -285,12 +308,15 @@
 				4AFE42A3231FA4E800AD52DA /* NSObject+KVOCrash.m in Sources */,
 				4AA0CDDF23025C0000F50BCB /* OCTextField.m in Sources */,
 				4AFE42A4231FA4E800AD52DA /* KVOProxy.m in Sources */,
+				4A8CEF482325EA6200F5D447 /* OCImage.m in Sources */,
 				3D58F15921D61FA4005F98FA /* ViewController.m in Sources */,
 				4AFE42A7231FA57200AD52DA /* OCCrashAvoidWhiteList.m in Sources */,
 				3D58F16421D61FA8005F98FA /* main.m in Sources */,
 				4AFE429F231FA4E800AD52DA /* NSTimerProxy.m in Sources */,
+				4AFE42AA231FA73C00AD52DA /* NSMutableArray+Crash.m in Sources */,
 				3D58F17121D620DD005F98FA /* OCButton.m in Sources */,
 				4AA0CDE323025DC000F50BCB /* AppDelegate+OC.m in Sources */,
+				4AFE42AD231FACC800AD52DA /* UIViewController+aop.m in Sources */,
 				3D55825221D7437000A6A779 /* OCNavigationController.m in Sources */,
 				4AFE429E231FA4E800AD52DA /* NSTimer+Crash.m in Sources */,
 				3D58F16E21D61FF2005F98FA /* OCLabel.m in Sources */,

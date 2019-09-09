@@ -4,7 +4,7 @@
 #import <objc/message.h>
 #import "NSObject+AvoidCrash.h"
 #import "KVOProxy.h"
-#import "SZCrashAvoidWhiteList.h"
+#import "OCCrashAvoidWhiteList.h"
 
 static NSString *kmObserversIdentify = @"kmObserversIdentify";
 
@@ -21,7 +21,7 @@ static NSString *kmObserversIdentify = @"kmObserversIdentify";
 
 - (void)sz_addObserver:(NSObject *)observer forKeyPath:(NSString *)keyPath options:(NSKeyValueObservingOptions)options context:(void *)context {
    
-    SZCrashAvoidWhiteList *whiteList = [SZCrashAvoidWhiteList shareInstance];
+    OCCrashAvoidWhiteList *whiteList = [OCCrashAvoidWhiteList shareInstance];
     if (![whiteList KVOWhiteListContainClass:self.class]) {
         return;
     }
@@ -53,7 +53,7 @@ static NSString *kmObserversIdentify = @"kmObserversIdentify";
 }
 
 - (void)sz_removeObserver:(NSObject *)observer forKeyPath:(NSString *)keyPath {
-    SZCrashAvoidWhiteList *whiteList = [SZCrashAvoidWhiteList shareInstance];
+    OCCrashAvoidWhiteList *whiteList = [OCCrashAvoidWhiteList shareInstance];
     if (![whiteList KVOWhiteListContainClass:self.class]) {
         return;
     }

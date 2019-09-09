@@ -18,8 +18,9 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
-    [self registerAPN];
-    [self addLocalNotice];
+//    [self registerAPN];
+//    [self addLocalNotice];
+    
     return YES;
 }
 
